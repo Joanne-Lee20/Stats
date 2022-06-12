@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>☆【 ML Website 】☆</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <div class="container">
+            <div class = "row"><div id = websiteheader>
+                <div class = "col-lg-12" id = "headertext">
+                    <h3><strong>></strong> Machine Learning</h3>
+                    <h6>Created by Joanne Lee<span id="blink">|</span></h6>
+                    <div class="scanlines"></div>
+                </div>
+            </div></div>
+            <div class="row justify-content-center">
+                <div class = "col-lg-6" id = "box">
+                    <h4><strong>DIRECTORY</strong></h4>
+                    <hr>
+                    <ul id = "directory">
+                        <li><button><a href="index.html" id = "a"><strong>></strong> General Information</a></button></li>
+                        <li><button><a href="examples.html" id = "b"><strong>></strong> Machine Learning in Use</a></button></li>
+                        <li><button><a href="sources.html" id = "c"><strong>></strong> Sources</a></button></li>
+                    </ul>
+                </div>
+                <div class = "col-lg-5" id = "desc">
+                    <p><h4><i id="glitch">General Information</i></h4><br>
+                        <img src="machine.png" alt="icon" id = "icon">
+                    </p>
+                </div>
+            </div>
+            <div class="row"><div id="box2">
+                <h5><b>What is Machine Learning?</b></h5>
+                <hr>
+                    <p>
+                        <u>Machine learning</u> refers to a subfield of computer science and artificial intelligence (AI) in which machines are gradually taught to perform tasks effectively without receiving explicit instructions through programming. As the name suggests, this technology focuses on the improvement of a machine’s accuracy and capabilities through experience, similarly to how a child may learn over time. Essentially, machine learning allows computers to gain knowlege in a manner comparable to the development of human intelligence.
+                    </p>
+                    <div id = "box4">
+                        <p>
+                            <b>></b> Machine learning <u>algorithm</u>: coded procedure that is run on data; creates a machine learning model<br><br>
+                            <b>></b> Machine learning <u>model</u>: where output of the algorithm is stored; represents what the machine learned
+                        </p>
+                    </div>
+            </div></div>
+            <div class="row justify-content-center">
+                <div class = "col-lg-5" id = "box3">
+                    <h5 id = "glitch">History of Machine<br><br>Learning<span id="blink">|</span></h5>
+                    <p>
+                    <b><span id = "orange">...</span></b><br><br>
+                    The term “machine learning” is considered to have been coined by Arthur Samuel, an American computer scientist and pioneer in the fields of digital gaming and AI in the mid-20th century. While creating a checkers game program in the 1950s, Samuel developed a self-updating method for the program to estimate the chances of either side winning (using a scoring function based on the positions of the pieces) and to determine its next move. He continued improving upon this design and eventually taught the program to recognize and remember previous positions it had already seen, increasing its effectiveness as a formidable opponent. Later in the same decade, American psychologist Frank Rosenblatt expanded upon Samuel’s accomplishments in machine learning and developed the Mark I perceptron, arguably the first modern neural network intended for accurate image recognition (though its true accuracy at the time is debatable). The minimax algorithm, alpha-beta pruning, and perceptron algorithm were AI and machine approaches used by Samuel and Rosenblatt in their respective endeavors, and their work, although seemingly trivial compared to the accomplishments of today, were highly influential in the early days of machine learning and undoubtedly paved the way for future progress.
+
+                    </p>
+                </div>
+                <div class = "col-lg-6" id = "box6">
+                    <h5><b>Connection to Statistics</b></h5>
+                    <hr>
+                    <p>
+                        Although there are definitely differences between the fields of statistics and machine learning, the latter is evidently built upon the former. Often, an important component of machine learning projects is the machine’s ability to make accurate predictions using data gained over time. Statistical concepts such as linear regression will likely be encountered in methods designed to fulfill the task of predictive modeling, with math-based algorithms trained to help the machine make classifications or predictions about future outcomes. More specifically, one framework for machine learning is statistical learning theory, which is concerned with probability theory. Probability spaces - denoted by (Ω, F, P), or (sample space, set of events each containing a set of outcomes, function from events to probabilities) - as well as other probability topics such as random variables and conditional distributions are essential to understand for machine learning, as decisions must be made using incomplete information and thus levels of certainty or uncertainty must be measured. Overall, machine learning definitely requires an understanding of statistics and involves a considerable amount of math in general.
+                        <img src="regression.png" alt="icon" height = "400"><br>
+                        <b>></b> Statistical method - linear regression
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
